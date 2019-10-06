@@ -16,4 +16,4 @@
 
 ##### Your final solution should look like:
 
-![Final](images/target.png)
+![Target](../images/target.png)
