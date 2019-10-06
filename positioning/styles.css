@@ -1,0 +1,80 @@
+/*/////////////////////////////////////////////////
+///////////////    SIMPLE RESET    ///////////////
+///////////////////////////////////////////////*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*/////////////////////////////////////////////////
+///////////////       LAYOUT       ///////////////
+///////////////////////////////////////////////*/
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem;
+}
+
+/*/////////////////////////////////////////////////
+////////      CIRCLES & POSITIONING      /////////
+///////////////////////////////////////////////*/
+.circle-one,
+.circle-two,
+.circle-three,
+.circle-four,
+.circle-five {
+  border-radius: 50%;
+}
+
+.circle-one {
+  width: 20rem;
+  height: 20rem;
+}
+.circle-two {
+  width: 16rem;
+  height: 16rem;
+}
+.circle-three {
+  width: 12rem;
+  height: 12rem;
+}
+.circle-four {
+  width: 8rem;
+  height: 8rem;
+}
+.circle-five {
+  width: 4rem;
+  height: 4rem;
+}
+
+.mark-one {
+}
+
+.mark-two {
+}
+
+.mark-three {
+}
+
+/*/////////////////////////////////////////////////
+//////////////    HELPER CLASSES    //////////////
+///////////////////////////////////////////////*/
+
+.orange-helper {
+  background-color: #d45938;
+}
+
+.dark-blue-helper {
+  background-color: #191e25;
+}
+
+.light-grey-helper {
+  color: #f9f9f9;
+}
+.light-grey-text-helper {
+  color: #f9f9f9;
+}
