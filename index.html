@@ -6,29 +6,28 @@
     <link rel="stylesheet" href="styles.css" />
     <!-- Only if supporting IE 9 or below -->
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
-    <title>Floats</title>
-
-    <!-- <div class="center-and-constrain">
-      <h1>Floating To The Right</h1>
-      <img class="float-right" src="images/block-01.jpg" alt="" />
-      <p class="float-right">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-        porro tempora repellendus hic ipsa voluptatem dolorum id ut corrupti?
-        Illo, totam autem non eius inventore sint at maxime ducimus cupiditate.
-      </p>
-    </div> -->
-
-    <div class="center-and-constrain outer-container">
-      <!-- <img src="images/block-01.jpg" alt="" />
-      <img src="images/block-02.jpg" alt="" /> -->
-      <div class="float-right inner-box blue">1</div>
-      <div class="float-right inner-box red">2</div>
-      <div class="float-left inner-box green">3</div>
-      <div class="float-left inner-box purple">4</div>
-      <div class="clear-me"></div>
-      <!-- <div class="float-right inner-box"></div>
-      <div class="float-right inner-box clear"></div> -->
-    </div>
+    <title>Floating</title>
   </head>
-  <body></body>
+  <body>
+    <section class="main-wrapper light-grey-helper">
+      <div class="boxes-container center-and-constrain dark-blue-helper">
+        <div class="box yellow-helper">1</div>
+        <div class="box dark-grey-helper">4</div>
+        <div class="box blue-helper">3</div>
+        <div class="box orange-helper">2</div>
+        <div class="box blue-helper">5</div>
+        <div class="box dark-grey-helper">6</div>
+        <div class="box orange-helper">8</div>
+        <div class="box yellow-helper">7</div>
+        <div class="box orange-helper float-left">9</div>
+        <p class="light-grey-text-helper">
+          When inline items are floated. They pop out
+          <span class="orange-text-helper float-left">of the page flow</span>
+          and jump to the direction the float property specifics. You can float
+          subsequent items to the
+          <span class="blue-text-helper float-right">left</span> or the right.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>

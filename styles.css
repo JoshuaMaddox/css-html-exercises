@@ -1,23 +1,29 @@
+/*/////////////////////////////////////////////////
+///////////////    SIMPLE RESET    ///////////////
+///////////////////////////////////////////////*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.center-and-constrain {
-  width: 500px;
-  margin: 0 auto;
+/*/////////////////////////////////////////////////
+///////////////       LAYOUT       ///////////////
+///////////////////////////////////////////////*/
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 4rem;
 }
 
-.float-right {
-  float: right;
+.boxes-container {
+  padding: 3rem;
 }
 
-.float-left {
-  float: left;
-}
-
-.inner-box {
+.box {
   width: 25%;
   height: 100px;
   padding: 2rem;
@@ -30,26 +36,60 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.blue {
-  background-color: blue;
+/*/////////////////////////////////////////////////
+/////////////       POSITIONING      /////////////
+///////////////////////////////////////////////*/
+
+.float-right {
+  float: right;
 }
 
-.red {
-  background-color: red;
-}
-.green {
-  background-color: green;
-}
-.purple {
-  background-color: purple;
+.float-left {
+  float: left;
 }
 
-.outer-container {
-  background-color: orange;
-  padding: 3rem;
-  border: 2px solid purple;
-}
-
-.clear-me {
+.clear-floats {
   clear: both;
+}
+
+/*/////////////////////////////////////////////////
+//////////////    HELPER CLASSES    //////////////
+///////////////////////////////////////////////*/
+
+.orange-helper {
+  background-color: #d45938;
+}
+.orange-text-helper {
+  color: #d45938;
+}
+
+.yellow-helper {
+  background-color: #f8bc16;
+}
+
+.blue-helper {
+  background-color: #566882;
+}
+.blue-text-helper {
+  color: #566882;
+}
+
+.dark-blue-helper {
+  background-color: #191e25;
+}
+
+.dark-grey-helper {
+  background-color: #24282e;
+}
+
+.light-grey-helper {
+  background-color: #f9f9f9;
+}
+.light-grey-text-helper {
+  color: #f9f9f9;
+}
+
+.center-and-constrain {
+  width: 500px;
+  margin: 0 auto;
 }
