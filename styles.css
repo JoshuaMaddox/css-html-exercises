@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.center-and-constrain {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.inner-box {
+  width: 25%;
+  height: 100px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.purple {
+  background-color: purple;
+}
+
+.outer-container {
+  background-color: orange;
+  padding: 3rem;
+  border: 2px solid purple;
+}
+
+.clear-me {
+  clear: both;
+}
